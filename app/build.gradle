@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.kickstart"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    /*
+        *Google libraries*/
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation libraries.kotlin
+    implementation libraries.appcompat_v7
+    implementation libraries.constraint
+    implementation libraries.design
+    implementation libraries.coroutines
+    implementation libraries.anko_library
+    implementation libraries.retrofit
+    implementation libraries.room
+    kapt libraries.room_compiler
+    implementation libraries.core_ktx
+
+    /*
+            *Custom libraries*/
+    implementation 'com.karumi:dexter:4.2.0'
+    implementation 'com.github.bumptech.glide:glide:4.6.1'
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+    implementation 'com.joanzapata.iconify:android-iconify-material:2.2.2'
+}

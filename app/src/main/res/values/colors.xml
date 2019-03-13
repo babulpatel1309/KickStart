@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FEFEFE</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color1">#9E9E9E</color>
+    <color name="color2">#EE5350</color>
+    <color name="color3">#EB407A</color>
+    <color name="color4">#AB47BB</color>
+    <color name="color5">#7E57C1</color>
+    <color name="color6">#5C6BBF</color>
+    <color name="color7">#42A5F4</color>
+    <color name="color8">#29B5F5</color>
+    <color name="color9">#26C5D9</color>
+    <color name="color10">#26A69A</color>
+    <color name="color11">#66BA6A</color>
+    <color name="color12">#9CCB65</color>
+    <color name="color13">#D4E158</color>
+    <color name="color14">#FED500</color>
+    <color name="color15">#FEC928</color>
+    <color name="color16">#FEA726</color>
+    <color name="color17">#FE7043</color>
+    <color name="color18">#8D6E63</color>
+    <color name="color19">#78909C</color>
+
+    <color name="ripple_color">#4B505A</color>
+    <color name="country_recycler_bg">#F7F7F7</color>
+    <color name="sidemenuTextColor">#191919</color>
+    <color name="sideMenuColorSelected">#EDEDED</color>
+
+    <color name="cardBackground">#EDEDED</color>
+    <color name="cyan">#24C3A3</color>
+
+    <color name="redDareColor">#FE5959</color>
+    <color name="colorViolet">#875F98</color>
+    <color name="colorOrange">#FE7847</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#808080</color>
+    <color name="light_grey">#EAEAEA</color>
+    <color name="transparent">#00000000</color>
+    <color name="side_menu_selected">#f5af19</color>
+    <color name="mainBgColor">#f5af19</color>
+    <color name="tabsColor">#EF5A50</color>
+    <color name="upper_que">#6ac12e</color>
+    <color name="below_que">#ef492e</color>
+    <color name="compose_que">#CBE6BF</color>
+    <color name="black">#ff000000</color>
+    <color name="black_dialog">#c4000000</color>
+    <color name="black70">#56000000</color>
+    <color name="black_20">#48000000</color>
+    <color name="red_age_validation">#FD374B</color>
+    <color name="silver_age_validation">#EFEFEF</color>
+    <color name="appIntroBackground">#A2C1B2</color>
+    <color name="skyBlue">#00BFFF</color>
+    <color name="skyBlueDark">#007bff</color>
+    <color name="yellowIntro">#ffe200</color>
+
+    <color name="blue">#2962FF</color>
+    <color name="tab_selection_green">#16AD8F</color>
+    <color name="playstore_green">#689F38</color>
+    <color name="salesPageAlertBox">#59000000</color>
+    <color name="salesGreen">#62BB15</color>
+    <color name="grey_light">#CACACA</color>
+
+    <color name="seekbar_color">#707070</color>
+
+    <color name="reveal_categories">#8AC049</color>
+
+    <color name="separator">#ECECEC</color>
+
+    <color name="blinkingColor">#00a9ce</color>
+    <color name="neutralColor">#3300a9ce</color>
+
+</resources>

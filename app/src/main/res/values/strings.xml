@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KickStart</string>
+
+    <string name="error_woops">Woops</string>
+    <string name="error_no_internet">No internet</string>
+    <string name="error_server_down">Looks like server is under maintenance. Please try after sometime. </string>
+    <string name="error_internet_down">"Looks like you are offline. Please connect your device to wifi or turn on mobile data to complete this action.</string>
+
+
+</resources>

@@ -1,0 +1,125 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentTransitions" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="yellow_title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/yellowIntro</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="yellow_edittext">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:inputType">text</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:backgroundTint">@color/yellowIntro</item>
+    </style>
+
+
+    <style name="grey_title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/sidemenuTextColor</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="grey_edittext">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:backgroundTint">@color/yellowIntro</item>
+    </style>
+
+
+    <style name="white_title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:layout_marginStart">@dimen/_5sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="white_title_amount">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:layout_marginStart">@dimen/_5sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="drop_shadow">
+        <item name="android:layout_height">@dimen/_5sdp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/drop_shadow</item>
+    </style>
+
+    <style name="horizontal_separator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/separator</item>
+    </style>
+
+    <style name="vertical_separator">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/separator</item>
+    </style>
+
+    <style name="radio_filters">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/_30sdp</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_marginStart">@dimen/_20sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_20sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+    </style>
+
+    <style name="WindowTitleBackground">
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>
